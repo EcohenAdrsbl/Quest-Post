@@ -1,0 +1,31 @@
+{
+  "name": "data-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "frog-dev": "frog dev",
+    "deploy": "vercel",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@neynar/nodejs-sdk": "^1.39.0",
+    "@thirdweb-dev/engine": "^0.0.12",
+    "@thirdweb-dev/sdk": "^4.0.99",
+    "frog": "latest",
+    "hono": "^4",
+    "next": "14.1.0",
+    "node-fetch": "^2.7.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "vercel": "^32.4.1"
+  }
+}
